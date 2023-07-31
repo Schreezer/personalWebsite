@@ -194,10 +194,10 @@ class _professionalScreenState extends State<professionalScreen>
                 children: const [
                   socialWraper(icon: Icon(EvaIcons.github), text: "Github", S_url: "http://www.github.com/Schreezer", userName: "Schreezer"),
                   socialWraper(icon: Icon(EvaIcons.twitter), text: "Twitter", S_url: "https://twitter.com/Chirag_1313", userName: "Chirag_1313"),
-                  socialWraper(icon: Icon(EvaIcons.linkedin), text: "LinkedIn", S_url: "http://www.github.com", userName: "Schreezer"),
-                  socialWraper(icon: Icon(EvaIcons.github), text: "Github", S_url: "http://www.github.com", userName: "Schreezer"),
-                  socialWraper(icon: Icon(EvaIcons.github), text: "Github", S_url: "http://www.github.com", userName: "Schreezer"),
-                  socialWraper(icon: Icon(EvaIcons.github), text: "Github", S_url: "http://www.github.com", userName: "Schreezer"),
+                  socialWraper(icon: Icon(EvaIcons.linkedin), text: "LinkedIn", S_url: "https://www.linkedin.com/in/chirag-aggarwal-80212212b/", userName: "Chirag Aggarwal"),
+                  // socialWraper(icon: Icon(EvaIcons.github), text: "Github", S_url: "http://www.github.com", userName: "Schreezer"),
+                  // socialWraper(icon: Icon(EvaIcons.github), text: "Github", S_url: "http://www.github.com", userName: "Schreezer"),
+                  // socialWraper(icon: Icon(EvaIcons.github), text: "Github", S_url: "http://www.github.com", userName: "Schreezer"),
                 ],
               )
             ],
