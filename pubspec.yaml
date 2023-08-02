@@ -30,6 +30,7 @@ environment:
 dependencies:
   cupertino_icons: ^1.0.2
   eva_icons_flutter: ^3.1.0
+  firebase_core: ^2.15.0
   flutter:
     sdk: flutter
   url_launcher: ^6.1.12
@@ -51,7 +52,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/Imagee.heic
+    - assets/images/Imagee.png
+    - assets/images/Bountier.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
   # For details regarding adding assets from package dependencies, see

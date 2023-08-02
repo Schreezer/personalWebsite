@@ -1,10 +1,14 @@
 // ignore_for_file: camel_case_types
 import 'package:flutter/material.dart';
 import 'package:personal/screens/homeScreen.dart';
-
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 import 'Widgets/generalWrapper.dart';
 
-void main() {
+void main() async{
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+);
   runApp(const MyApp());
 }
 

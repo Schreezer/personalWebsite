@@ -47,7 +47,7 @@ class _welcomeScreenState extends State<welcomeScreen> {
                 opacity: opacity,
                 duration: const Duration(milliseconds: 1500),
                 curve: Curves.easeIn,
-                child: const Expanded(
+                // child: const Expanded(
                   child: Text(
                     "There are a few things you can actually do here instead of just reading and looking at stuff.",
                     textAlign: TextAlign.center,
@@ -56,16 +56,16 @@ class _welcomeScreenState extends State<welcomeScreen> {
                       color: Colors.pink,
                     ),
                   ),
-                ),
+                // ),
               ),
             ),
             Container(
-              margin: const EdgeInsets.only(top: 70, bottom: 70),
+              margin: const EdgeInsets.only(top: 50, bottom: 50),
               child: AnimatedOpacity(
                 opacity: opacity,
                 duration: const Duration(milliseconds: 3000),
                 curve: Curves.easeIn,
-                child: const Expanded(
+                // child: const Expanded(
                   child: Text(
                     "If you are here to talk business just click the top right button, while you can access the menu from the button on the top left.",
                     textAlign: TextAlign.center,
@@ -73,7 +73,7 @@ class _welcomeScreenState extends State<welcomeScreen> {
                       fontSize: 24,
                       color: Colors.pink,
                     ),
-                  ),
+                  // ),
                 ),
               ),
             ),

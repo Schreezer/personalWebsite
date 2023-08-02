@@ -32,7 +32,7 @@ class _professionalScreenState extends State<professionalScreen>
           children: [
             CircleAvatar(
               radius: 50,
-              backgroundImage: AssetImage("assets/Imagee.heic"),
+              backgroundImage: AssetImage("assets/images/Imagee.png"),
             ),
             SizedBox(
               width: 20,
@@ -42,6 +42,7 @@ class _professionalScreenState extends State<professionalScreen>
                 children: [
                   Text(
                     "Chirag Aggarwal",
+                    
                     style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.bold,
@@ -68,20 +69,20 @@ class _professionalScreenState extends State<professionalScreen>
         ),
         TabBar(
           controller: _tabController,
-          tabs: [
-            const Tab(
+          tabs: const [
+            Tab(
               icon: Icon(Icons.extension), // an icon representing skills
               text: "Skills",
             ),
-            const Tab(
+            Tab(
               icon: Icon(Icons.school),
               text: "Education",
             ),
-            const Tab(
+            Tab(
               icon: Icon(Icons.star),
               text: "Achievements",
             ),
-            const Tab(
+            Tab(
               icon: Icon(Icons.people), // an icon representing socail networks
               text: "Social",
             )
@@ -94,47 +95,47 @@ class _professionalScreenState extends State<professionalScreen>
               // Display information based on the selected tab
               // Add your code here
               ListView(
-                children: [
-                  const ListTile(
+                children: const [
+                  ListTile(
                     leading: Icon(Icons.extension),
                     title: Text("Programming Languages"),
                     subtitle: Text(
                         "C, C++, Python, Java, Dart, JavaScript, HTML, CSS, Solidity, Rust, MATLAB"),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: Icon(Icons.extension),
                     title: Text("Frameworks"),
                     subtitle: Text("Flutter, React, Express.js, Node.js"),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: Icon(Icons.extension),
                     title: Text("Databases"),
                     subtitle: Text("Firebase"),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: Icon(Icons.extension),
                     title: Text("Tools"),
                     subtitle: Text(
                         "Git, GitHub, VS Code, Hardhat, Ganache, Ethereum Virtual Machine"),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: Icon(Icons.extension),
                     title: Text("Operating Systems"),
                     subtitle: Text("Windows, Linux, MacOS"),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: Icon(Icons.extension),
                     title: Text("Others"),
                     subtitle:
                         Text("Arduino, Raspberry Pi, Figma, Microsoft Office"),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: Icon(Icons.extension),
                     title: Text("Finance"),
                     subtitle: Text(
                         "Basics of Micro and Macro Economics, Muliple Crypto-currencies Analysis, TradingView, Tokenomics"),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: Icon(Icons.extension),
                     title: Text("Electrical Engineering"),
                     subtitle: Text(
@@ -143,19 +144,19 @@ class _professionalScreenState extends State<professionalScreen>
                 ],
               ),
               ListView(
-                children: [
-                  const ListTile(
+                children: const [
+                  ListTile(
                     leading: Icon(Icons.school),
                     title:
                         Text("B.Tech. in Electrical Engineering, (2021-2025)"),
                     subtitle: Text("Indian Institute of Technology, Ropar"),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: Icon(Icons.school),
                     title: Text("Class XII"),
                     subtitle: Text("Spring Dale Senior School, Khanna"),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: Icon(Icons.school),
                     title: Text("Class X"),
                     subtitle: Text(
@@ -164,24 +165,24 @@ class _professionalScreenState extends State<professionalScreen>
                 ],
               ),
               // Achievements
-              ListView(children: [
-                const ListTile(
+              ListView(children: const [
+                ListTile(
                   leading: Icon(Icons.star),
                   title: Text("JEE Advanced 2021"),
                   subtitle: Text("All India Rank 3365"),
                 ),
-                const ListTile(
+                ListTile(
                   leading: Icon(Icons.star),
                   title: Text("JEE Mains 2021"),
                   subtitle: Text("All India Rank 3675"),
                 ),
                 // Rank 700 ICPC Prelims,Amrithapuri and Mathura Region
-                const ListTile(
+                ListTile(
                   leading: Icon(Icons.star),
                   title: Text("ICPC Prelims, Amrithapuri and Mathura Region"),
                   subtitle: Text("Rank 700"),
                 ),
-                const ListTile(
+                ListTile(
                   leading: Icon(Icons.star),
                   title: Text("Debates and Declamations"),
                   subtitle: Text("Won a few at School Level"),
